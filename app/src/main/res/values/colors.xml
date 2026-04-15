@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background_color">#DEDEDE</color>
+    <color name="linearbackground_color">#DEDEDE</color>
+    <color name="text_color">#111111</color>
+
+    <color name="color_primary">#FEFEFE</color>
+    <color name="color_primary_dark">#DFDFDF</color>
+
+    <color name="title_text_color">#0E0D0D</color>
+    <color name="drawable_color">#757575</color>
+
+    <color name="blue">#0277bd</color>
+    <color name="blue_light">#332196f3</color>
+
+    <color name="green">#4caf50</color>
+    <color name="green2">#43A047</color>
+    <color name="green3">#4D43A047</color>
+    <color name="md_deep_orange_A400">#ff3d00</color>
+    <color name="icon_color">#7b879a</color>
+    <color name="brown">#ABCBB184</color>
+    <color name="brownlite">#C65E4F34</color>
+
+
+
+    <color name="main_title_color">#B3161515</color>
+
+    <color name="white_dark">#F0EAEA</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textcolor">#FFC8D8E8</color>
+    <color name="dark_black">#302C2C</color>
+    <color name="rowcolor">#1B1818</color>
+    <color name="gray">#525357</color>
+    <color name="dark_blue">#186391</color>
+    <color name="ligtht_blue">#00B8D4</color>
+    <color name="light_green">#00BFA5</color>
+    <color name="arsenic">#36474F</color>
+    <color name="silver">#ABABAB</color>
+
+
+
+    <color name="darkColorPrimaryDark">#171717</color>
+    <color name="darkColorPrimary">#424242</color>
+    <color name="colorbackgrounddark">#171717</color>
+    <color name="card_color">#FEFEFE</color>
+    <color name="navigation_bar_color">#282b32</color>
+    <color name="primary_text_color">#000000</color>
+    <color name="secondary_text_color">#c4c4c4</color>
+    <color name="statusbar_color">#F6F6F6</color>
+
+
+
+
+    <color name="bottom_color">#F5F5F5</color>
+    <color name="white_primary">#FEFEFE</color>
+    <color name="white_primary_dark">#DFDFDF</color>
+    <color name="black_light">#212020</color>
+    <color name="settings_color">@color/color_primary</color>
+
+    <color name="Nav_drawer_Color">#999999</color>
+    <color name="darkstatusbarcolor" >#171717</color>
+
+
+
+    <color name="theme_colorred" >#ED3E34</color>
+    <color name="theme_coloryellow" >#FCE82B</color>
+    <color name="theme_colorblue" >#1D4F9B</color>
+    <color name="theme_colororenge" >#EF9143</color>
+    <color name="theme_colorgreen" >#54B848</color>
+
+    <color name="theme_colorpurple" >#BC9FCB</color>
+    <color name="theme_colorpink" >#E5C6D0</color>
+    <color name="theme_colorbrowen" >#772120</color>
+    <color name="theme_colorblack" >#221F1F</color>
+    <color name="theme_colorgrey" >#9AAAB5</color>
+
+
+    <color name="theme_colorwhite" >#FAF7F7</color>
+    <color name="theme_colorbeige" >#FEE0B9</color>
+    <color name="drawable_color1">#CC007EFE</color>
+    <color name="drawable_color2">#E6FE0000</color>
+    <color name="drawable_color3">#26D926</color>
+    <color name="drawable_color4">#7E00FE</color>
+    <color name="drawable_color5">#33B8E8</color>
+    <color name="drawable_color6">#CCFE007E</color>
+    <color name="drawable_color7">#CC0EBFBF</color>
+    <color name="drawable_color8">#FFC107</color>
+    <color name="drawable_color9">#F44336</color>
+    <color name="drawable_color10">#FE7E0A</color>
+    <color name="drawable_color11">#2196F3</color>
+    <color name="drawable_color12">#CCFE00FE</color>
+    <color name="background_color1">#33007EFE</color>
+    <color name="background_color2">#26FE0000</color>
+    <color name="background_color3">#3326D926</color>
+    <color name="background_color4">#337E00FE</color>
+    <color name="background_color5">#3333B8E8</color>
+    <color name="background_color6">#33FE007E</color>
+    <color name="background_color7">#3300FEFE</color>
+    <color name="background_color8">#33FFC107</color>
+    <color name="background_color9">#33F44336</color>
+    <color name="background_color10">#33FE7E0A</color>
+    <color name="background_color11">#332196F3</color>
+    <color name="background_color12">#1AFE00FE</color>
+
+
+    <color name="bookview_color1">#6F51FE</color>
+    <color name="bookview_color2">#FEAE03</color>
+    <color name="bookview_color3">#4CAF50</color>
+    <color name="bookview_color4">#9C27B0</color>
+    <color name="bookview_color5">#EC1E79</color>
+    <color name="bookview_color6">#03A9F4</color>
+    <color name="bookview_color7">#FF5722</color>
+    <color name="bookview_color8">#009688</color>
+    <color name="bookview_color9">#00BCD4</color>
+    <color name="cardview_background">#E9E9F2</color>
+
+    <!--   <color name="google_color_primary">#FDFAFE</color>-->
+    <color name="google_color_primary">#FDFAFE</color>
+
+    <color name="bottom_nav_color">#000000</color>
+
+
+    <color name="bottom_navtextcolor">#4caf50</color>
+    <color name="fefefe">#FEFEFE</color>
+    <color name="bottom_sheet_background_color">#F0F1F3</color>
+    <color name="cancel_s_color">#3F51B5</color>
+    <color name="exit_icon_color">#E60D0D0D</color>
+
+</resources>

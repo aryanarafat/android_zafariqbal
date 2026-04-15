@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:visible="false"
+        android:id="@+id/grp1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_goto_bs"
+            android:title="FeedBack" />
+
+        <item
+            android:id="@+id/donate"
+            android:visible="false"
+            android:icon="@drawable/ic_monetization_on_black_24dp"
+            android:title="Donate Us" />
+        <item
+            android:id="@+id/update"
+            android:icon="@drawable/update"
+            android:title="Update App" />
+        <item
+            android:visible="false"
+            android:id="@+id/tafsir_and_writer"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="" />
+    </group>
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/book1"
+            android:icon="@drawable/ic_import_contacts_black_nur_24dp"
+            android:title="আরিফ আজাদ সমগ্র " />
+        <item
+            android:id="@+id/book2"
+            android:icon="@drawable/ic_import_contacts_black_ha_24dp"
+            android:title="জাফর ইকবাল সমগ্র " />
+
+        <item
+            android:id="@+id/book3"
+            android:icon="@drawable/book3icon"
+            android:title="রবীন্দ্রনাথ ঠাকুর সমগ্র" />
+    </group>
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/rating"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title= "Rating in Google play " />
+        <item
+            android:id="@+id/moreapps"
+            android:icon="@drawable/more_apps"
+            android:title="More Apps" />
+        <item
+            android:id="@+id/privacy_policy"
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="Privacy Policy" />
+
+        <item
+            android:id="@+id/about_app"
+            android:icon="@drawable/aboutapp"
+            android:title="About App" />
+        <item
+            android:id="@+id/contact_us"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="Contact Us" />
+    </group>
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/aryanarafat"
+            android:icon="@drawable/copyright"
+            android:title="Aryan Arafat" />
+    </group>
+</menu>

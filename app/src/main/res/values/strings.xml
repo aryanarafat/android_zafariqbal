@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">জাফর ইকবাল সমগ্র</string>
+    <string name="second_title">হারিয়ে যান জাফর ইকবালের স্বপ্নের রাজ্যে</string>
+    <string name="version">1.0.0</string>
+
+    <string name="never">কখনই না</string>
+    <string name="later">পরে</string>
+    <string name="possitive">রেটিং দিবো</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="delete_dailog">In this case, all item favorite will be deleted \nAre you sure you want to delete this item?</string>
+    <string name="todo">\ntodo\n</string>
+
+
+    <string name="title_1">জীবনী</string>
+    <string name="title_2">কিশোর উপন্যাস</string>
+    <string name="title_3">সায়েন্স ফিকশন</string>
+    <string name="title_4">বিশেষ রচনা</string>
+    <string name="title_5">সাদাসিধে কথা</string>
+    <string name="title_6">গল্প</string>
+    <string name="title_7">আমার সাইন্টিস মামা</string>
+    <string name="title_8">আরো একটুখানি বিজ্ঞান</string>
+    <string name="title_9">এক ডজন একজন</string>
+    <string name="title_10">একটুখানি বিজ্ঞান</string>
+    <string name="title_11">কাবিল কোহকাফী</string>
+</resources>

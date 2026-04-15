@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="drawer_text_appearance">
+
+        <item name="fontFamily">@font/solaimanlipi</item>
+
+    </style>
+</resources>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/settings_color"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    tools:viewBindingIgnore="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="left">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginRight="15sp"
+                android:fontFamily="sans-serif-medium"
+                android:src="@drawable/pin"
+                android:textSize="18sp">
+
+
+                <ImageView
+                    android:id="@+id/pin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:src="@drawable/pin"
+                    android:text="Welcome"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+
+                </ImageView>
+
+
+                <ImageView
+                    android:id="@+id/clsoe_imageview"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity=""
+                    android:fontFamily="sans-serif-medium"
+
+                    android:src="@drawable/cancel_s"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+
+                </ImageView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="right">
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/dailog_imageview"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/ic_local_grocery_store_black_24dp">
+
+
+            </ImageView>
+
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/first_time_dailog_titel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/solaimanlipi"
+                android:text="MaterialIX"
+                android:textColor="@color/title_text_color"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+
+            </com.google.android.material.textview.MaterialTextView>
+
+
+            <TextView
+                android:id="@+id/first_time_dailog_titel_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Version 3.0"
+
+                android:textColor="#7C7A7A"
+                android:textSize="14sp">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/dailog_titel_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/solaimanlipi"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="This Is Titel"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                android:visibility="gone">
+
+
+            </TextView>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/dailog_details_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/solaimanlipi"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="The Best android implemantation
+   \n  of material UI compoenents. This App Implemented
+ based on Google Design Guidelinses."
+                    android:textColor="@color/text_color"
+                    android:textSize="16sp">
+
+
+                </TextView>
+            </androidx.core.widget.NestedScrollView>
+
+
+
+            <LinearLayout
+                android:id="@+id/Done_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dailog_positive_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#1976D1"
+                    android:fontFamily="@font/solaimanlipi"
+                    android:gravity="center"
+                    android:text="BUY SOURCE CODE"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+
+                    android:id="@+id/dailog_nautral_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#D06B19"
+                    android:fontFamily="@font/solaimanlipi"
+                    android:gravity="center"
+                    android:text="BUY SOURCE CODE"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/dailog_nagative_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#0E7B89"
+                    android:fontFamily="@font/solaimanlipi"
+                    android:gravity="center"
+                    android:text="BUY SOURCE CODE"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="right"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_width="40dp"
+            android:padding="5dp"
+            android:src="@drawable/arrow_forward"
+            android:id="@+id/drawerimageviewback"
+            android:layout_height="40dp">
+
+        </ImageView>
+
+        <TextView
+            android:layout_weight="1"
+            android:textSize="21sp"
+            android:text="Quick Settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </TextView>
+
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:src="@drawable/baseline_settings_24"
+            android:layout_marginRight="20dp">
+
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="3dp"
+                android:src="@drawable/text_format">
+
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Font Size"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="40dp">
+
+
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </SeekBar>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="15"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="5dp"
+                android:src="@drawable/line_spacing">
+
+
+            </ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Line Spacing "
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_height="40dp">
+
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </SeekBar>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="15"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <View
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:background="@color/color_primary_dark"
+        android:layout_height="1dp">
+
+
+    </View>
+
+
+
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="3dp"
+            android:src="@drawable/text_format">
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:text="Font Family"
+            android:fontFamily="sans-serif-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            >
+
+        </androidx.appcompat.widget.AppCompatSpinner>
+
+
+    </LinearLayout>    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="3dp"
+            android:src="@drawable/text_format">
+
+        </ImageView>
+
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:text="Font color "
+            android:fontFamily="sans-serif-medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+        <ImageView
+            android:id="@+id/textcolorpopup"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/line_spacing"
+            android:layout_height="wrap_content"
+            >
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:textColor="@color/title_text_color"
+        android:text="হুমায়ুন আহমেদ সমগ্র' এপ্লিকেশনটি আমার খুবই ভালো লেগেছে, আশা করি আপনারও অনেক ভালো লাগবে। নিচের লিংক থেকে আপনি অ্যাপ ইনস্টল করতে পারবেন।"
+        android:layout_width="match_parent"
+        android:id="@+id/simple_textview"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+
+</LinearLayout>

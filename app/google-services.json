@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "726493614812",
+    "firebase_url": "https://zafar-iqbal-6d09e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zafar-iqbal-6d09e",
+    "storage_bucket": "zafar-iqbal-6d09e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726493614812:android:4d4a7bfafdbd9938e31a19",
+        "android_client_info": {
+          "package_name": "com.yeasinrabbee.zafariqbal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "726493614812-4oaulclvroft3p4sdb0g4p9l07qja7db.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2j81T1FgWCDDZxbY8i4jFsc9_vUjRecA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "726493614812-4oaulclvroft3p4sdb0g4p9l07qja7db.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

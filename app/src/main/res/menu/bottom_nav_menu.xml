@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_s"
+        android:title="Home"
+      />
+  <!--  android:title="হোম"-->
+   <!--
+
+   android:title="হিস্টোরি"
+    android:title="ফেভারিট"
+    android:title="সেটিংস"
+
+    -->
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/time_past"
+
+        android:title="History"
+      />
+
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/heart"
+        android:title="Favorite"
+       />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings"
+        android:title="Settings" />
+
+
+
+
+</menu>

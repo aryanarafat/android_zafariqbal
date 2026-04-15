@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/google_color_primary"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ListOfContentActivity">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/list_imageback"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/arrow_back_list"
+                    android:layout_height="40dp">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="25dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/listOfcontentTitle_textview"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_weight="1"
+                        android:text="সায়েন্স ফিকশন"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="12sp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:text="মোট কনটেন্ট ১২৩ টি"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/notification"
+                    android:layout_height="wrap_content">
+
+
+                </ImageView>
+
+            </LinearLayout>
+
+
+
+            <EditText
+                android:id="@+id/edittext"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="gone"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/cardview_background"
+                android:drawableRight="@drawable/baseline_search_24"
+                android:hint="মোট কনটেন্ট ১২৩ টি  "
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    >
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--    <com.google.android.gms.ads.AdView
+                android:id="@+id/adview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:adSize="SMART_BANNER"
+                app:adUnitId="ca-app-pub-3940256099942544/6300978111" />-->
+
+    </LinearLayout>
+
+</LinearLayout>
